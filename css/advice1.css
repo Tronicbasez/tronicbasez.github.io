@@ -1,0 +1,182 @@
+
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade');
+@import url('https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple|3d-float');
+
+
+.logo h1{
+  font-family: 'Bungee Shade', cursive;
+  color:blue;
+  text-align: center;
+  padding: 10px;
+  text-align: center;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+p{
+  width:300px;
+  word-wrap: break-word;}
+
+.grid {
+    margin-left:30%;
+    margin: 0;
+    max-width: 1200px;
+    width: 70%;
+}
+
+.row {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.border-medium {
+    border-style: solid;
+    border-width: medium;
+}
+
+.margin-left-2-5{
+  margin-left: 2.5%
+}
+.margin-left-5{
+  margin-left: 5%
+}
+.margin-left-7-5{
+  margin-left: 7.5%
+}
+.margin-left-10{
+  margin-left: 10%
+}
+}
+.margin-left-12-5{
+  margin-left: 12.5%
+}
+.margin-left-15{
+  margin-left: 15%
+}
+.margin-left-16{
+  margin-left: 16%
+}
+.margin-left-16-25{
+  margin-left: 16.25%
+}
+.margin-left-17-5{
+  margin-left: 17.5%
+}
+.margin-left-20{
+  margin-left: 20%
+}
+
+
+
+.margin-left-xls{
+  margin-left: 12.5%
+}
+.margin-right-s{
+  margin-right: 5%
+}
+.margin-right-ms{
+  margin-right: 7.5%
+}
+.margin-right-m{
+  margin-right: 10%
+}
+.margin-right-xls{
+  margin-right: 12.5%
+}
+.margin-right-xls{
+  margin-right: 12.5%
+}
+
+.space-s{
+  margin:0.25%;
+}
+.space-ms{
+  margin:0.5%;
+}
+.space-m{
+  margin:0.75%
+}
+.space-m{
+  margin:1%
+}
+
+
+/*==========  Non-Mobile First Method  ==========*/
+@media only screen and (max-width : 1280px) {
+
+}
+/* Ipad and tablets */
+@media only screen and (max-width : 1240px) {
+
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px){
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}

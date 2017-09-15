@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade');
+@import url('https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple|3d-float');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+.body {
+    background-color: white;
+}
+.top {
+  margin-top: 0%;
+  background-color: white;
+}
+.logo h1{
+  font-family: 'Bungee Shade', cursive;
+  color:red;
+  text-align: center;
+  padding: 10px;
+  text-align: center;
+  font-size: 90px;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+article{
+  background-color:#f2f2f2;
+  border: 0.5px solid #bfbfbf;
+}
+
+.itemzoom img {
+
+  
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.itemzoom:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-filter: brightness(120%); /* Safari */
+  filter: brightness(120%);
+  border: 0.5px solid #bfbfbf;
+}
+
+.margin-top-1{
+  margin-top: 1%;
+}
+.margin-bottom-1{
+  margin-bottom: 1%;
+}
+.margin-bottom-5{
+  margin-bottom:5%;
+}
+
+
+.middle_ads{
+  display: none;
+}
+.nextbar{
+  font-size: 25px;
+  margin-top:2%;
+  margin-bottom: 3%;
+font-family: 'Anton', sans-serif;
+color: white;
+}
+.nextbar:link, .nextbar:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.nextbar:hover, .nextbar:active {
+    background-color: red;
+}
+.nextbar img{
+  width: 50px;
+}
+
+.mainreturn{
+  font-size: 25px;
+  margin-top:2%;
+  margin-bottom: 3%;
+font-family: 'Anton', sans-serif;
+color: white;
+}
+.mainreturn:link, .mainreturn:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.mainreturn:hover, .mainreturn:active {
+    background-color: red;
+}
+.mainreturn img{
+  width: 50px;
+}
+
+footer{
+  background-color: black;
+  color: white;
+}
+.icon img{
+  width: 50%;
+}
+
+/*==========  Non-Mobile First Method  ==========*/
+@media only screen and (max-width : 1280px) {
+
+}
+/* Ipad and tablets */
+@media only screen and (max-width : 1240px) {
+
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px){
+.middle_ads{
+  display:inherit;
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+.logo h1{
+  font-family: 'Bungee Shade', cursive;
+  color:red;
+  font-size: 52px;
+  text-align: center;
+  padding: 10px;
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
